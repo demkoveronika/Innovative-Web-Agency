@@ -1,0 +1,76 @@
+.advantages__content {
+  padding-top: 70px;
+  padding-bottom: 53px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #E0E7EF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.advantages__content-title {
+  text-transform: uppercase;
+  color: #003366;
+  background-color: #FBFBFB;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  border-radius: 16px;
+  font-size: 42px;
+  line-height: 63px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-align: left;
+  width: auto;
+}
+
+.advantages__content-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 23.5px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.advantages__content-item {
+  background-color: #FBFBFB;
+  width: 431px;
+  height: 274px;
+  border-radius: 14px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.advantages__content-item-img {
+  width: 64px;
+  height: 64px;
+}
+
+.advantages__content-item-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #003366;
+  margin: 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.advantages__content-item-desc {
+  color: #343434;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  width: 371px;
+}

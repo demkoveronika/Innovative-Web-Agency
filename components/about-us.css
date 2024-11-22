@@ -1,0 +1,135 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-us__content-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-us__content-top--title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+  color: #003366;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-us__content-top--right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.about-us__content-top--button {
+  background-color: #003366;
+  border-radius: 100px;
+  padding: 14px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.about-us__content-top--img {
+  width: 24px;
+  height: 24px;
+}
+
+.about-us__content-top--text {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #343434;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about-us__content-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+
+.about-us__content-bottom--info {
+  background-color: #003366;
+  width: 660px;
+  height: 333px;
+  border-radius: 14px;
+}
+
+.about-us__content-bottom--info-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FBFBFB;
+  margin: 0;
+  padding-top: 37px;
+  padding-left: 34px;
+}
+
+.about-us__content-bottom--info-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FBFBFB;
+  margin: 0;
+  padding-left: 34px;
+  padding-bottom: 22px;
+  padding-right: 32px;
+  padding-top: 21px;
+}
+
+.about-us__content-bottom--more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 31px;
+}
+
+.about-us__content-bottom--more-item {
+  width: 317px;
+  height: 211px;
+  background-color: #003366;
+  border-radius: 14px;
+}
+
+.about-us__content-bottom--more-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 63px;
+  text-align: center;
+  margin: 0;
+  padding-top: 34px;
+  color: #FBFBFB;
+}
+
+.about-us__content-bottom--more-desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  margin: 0;
+  color: #FBFBFB;
+}
